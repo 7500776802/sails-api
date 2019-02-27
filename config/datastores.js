@@ -14,8 +14,6 @@
  */
 
 module.exports.datastores = {
-
-
   /***************************************************************************
    *                                                                          *
    * Your app's default datastore.                                            *
@@ -33,13 +31,11 @@ module.exports.datastores = {
    ***************************************************************************/
 
   mongodb: {
-    adapter: 'sails-mongo',
-    host: 'localhost',
-    port: 27017,
-    database: 'Article'
+    adapter: "sails-mongo",
+    host: "localhost",
+    database: "AP"
 
-
-    /*************************************************************************** 
+    /***************************************************************************
      *                                                                          *
      * Want to use a different database during development?                     *
      *                                                                          *
@@ -55,8 +51,5 @@ module.exports.datastores = {
      ***************************************************************************/
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
-
-  },
-
-
+  }
 };

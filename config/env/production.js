@@ -6,7 +6,7 @@
  * to configure your Sails app for production.  The configuration in this file
  * is only used in your production environment, i.e. when you lift your app using:
  *
- * ```
+ * `````
  * NODE_ENV=production node app
  * ```
  *
@@ -20,6 +20,7 @@
  */
 
 module.exports = {
+
 
 
   /**************************************************************************
@@ -48,7 +49,10 @@ module.exports = {
      *                                                                          *
      ***************************************************************************/
     default: {
+
       adapter: 'sails-mongo',
+
+
       // adapter: 'sails-mysql',
       // url: 'mysql://user:password@host:port/database',
       //--------------------------------------------------------------------------
